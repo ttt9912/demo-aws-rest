@@ -1,2 +1,4 @@
-- configure load balancer to point to 8080
--
+- configure load balancer target group to point to 12000
+- target group health check port 12000
+- ELB security group
+    - changed outbound rule to permit 12000
