@@ -1,0 +1,2 @@
+- configure load balancer to point to 8080
+-
